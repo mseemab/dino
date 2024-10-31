@@ -1,0 +1,52 @@
+/* styles.css */
+
+/* Custom Colors */
+:root {
+    --deep-emerald-green: #046A38;
+    --gold-accent: #C19A6B;
+    --slate-gray: #4A4A4A;
+    --soft-white: #FFFFFF;
+  }
+  
+  /* Tailwind Overrides */
+  .bg-deep-emerald-green {
+    background-color: var(--deep-emerald-green);
+  }
+  
+  .text-deep-emerald-green {
+    color: var(--deep-emerald-green);
+  }
+  
+  .bg-gold-accent {
+    background-color: var(--gold-accent);
+  }
+  
+  .text-gold-accent {
+    color: var(--gold-accent);
+  }
+  
+  .text-slate-gray {
+    color: var(--slate-gray);
+  }
+  
+  /* Scroll Behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Additional Custom Styles */
+  body {
+    background-color: var(--soft-white);
+  }
+  
+  /* Adjusting Font Family */
+  .font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Responsive Image Styling */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dino - Evolve Your Restaurant's Growth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dino offers innovative loyalty solutions to help restaurants attract, engage, and retain more diners. Join Dino today to transform your customer loyalty strategy.">
+  <meta name="keywords" content="Dino, Restaurant Loyalty, Customer Engagement, Rewards Program, Restaurant Growth">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-montserrat text-slate-gray">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav class="container mx-auto flex items-center justify-between py-4 px-6">
+      <!-- Logo -->
+      <div class="text-2xl font-bold text-deep-emerald-green">
+        <!-- Replace with your logo image if available -->
+        Dino
+      </div>
+      <!-- Navigation Links -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#benefits" class="hover:text-gold-accent">Benefits</a>
+        <a href="#features" class="hover:text-gold-accent">Features</a>
+        <a href="#how-it-works" class="hover:text-gold-accent">How It Works</a>
+        <a href="#testimonials" class="hover:text-gold-accent">Testimonials</a>
+        <a href="#contact" class="hover:text-gold-accent">Contact</a>
+      </div>
+      <!-- Call to Action Button -->
+      <a href="#cta" class="hidden md:block bg-gold-accent text-white font-semibold py-2 px-4 rounded hover:bg-opacity-90">Get Started</a>
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" class="md:hidden text-3xl text-slate-gray focus:outline-none">
+        &#9776;
+      </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+      <nav class="flex flex-col space-y-2 px-6 py-4">
+        <a href="#benefits" class="hover:text-gold-accent">Benefits</a>
+        <a href="#features" class="hover:text-gold-accent">Features</a>
+        <a href="#how-it-works" class="hover:text-gold-accent">How It Works</a>
+        <a href="#testimonials" class="hover:text-gold-accent">Testimonials</a>
+        <a href="#contact" class="hover:text-gold-accent">Contact</a>
+        <a href="#cta" class="bg-gold-accent text-white font-semibold py-2 px-4 rounded text-center hover:bg-opacity-90">Get Started</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="pt-24 pb-16 bg-white">
+    <div class="container mx-auto flex flex-col-reverse md:flex-row items-center px-6">
+      <!-- Text Content -->
+      <div class="flex-1 text-center md:text-left mt-8 md:mt-0">
+        <h1 class="text-4xl md:text-5xl font-bold text-deep-emerald-green leading-tight">
+          Evolve Your Restaurant's Growth with Dino
+        </h1>
+        <p class="mt-6 text-lg md:text-xl">
+          Innovative Loyalty Solutions to Attract, Engage, and Retain More Diners
+        </p>
+        <a href="#cta" class="mt-8 inline-block bg-gold-accent text-white font-semibold py-3 px-6 rounded hover:bg-opacity-90">
+          Join Dino Today
+        </a>
+      </div>
+      <!-- Hero Image -->
+      <div class="flex-1">
+        <img src="images/restaurant-hero.jpg" alt="Restaurant" class="w-full rounded shadow-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section id="benefits" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-deep-emerald-green text-center">Key Benefits</h2>
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Benefit 1 -->
+        <div class="text-center p-6 bg-white rounded shadow hover:shadow-lg transition">
+          <div class="text-gold-accent text-5xl mb-4">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-deep-emerald-green">Accelerate Customer Loyalty</h3>
+          <p class="mt-4">
+            Enhance repeat business with our tailored rewards program.
+          </p>
+        </div>
+        <!-- Benefit 2 -->
+        <div class="text-center p-6 bg-white rounded shadow hover:shadow-lg transition">
+          <div class="text-gold-accent text-5xl mb-4">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-deep-emerald-green">Insightful Analytics</h3>
+          <p class="mt-4">
+            Gain valuable insights into customer behavior and preferences.
+          </p>
+        </div>
+        <!-- Benefit 3 -->
+        <div class="text-center p-6 bg-white rounded shadow hover:shadow-lg transition">
+          <div class="text-gold-accent text-5xl mb-4">
+            <i class="fas fa-sync-alt"></i>
+          </div>
+          <h3 class="text-xl font-semibold text-deep-emerald-green">Effortless Integration</h3>
+          <p class="mt-4">
+            Seamlessly integrate with your existing systems without disruption.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-deep-emerald-green text-center">How Dino Works for Your Restaurant</h2>
+      <p class="mt-4 text-center text-lg">
+        Getting started with Dino is straightforward and hassle-free. Here's how you can evolve your customer loyalty strategy in five simple steps:
+      </p>
+      <div class="mt-12 space-y-8">
+        <!-- Step 1 -->
+        <div class="flex flex-col md:flex-row items-start md:items-center">
+          <div class="flex-shrink-0 text-gold-accent text-6xl md:mr-8">
+            <i class="fas fa-user-plus"></i>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">1. Sign Up with Dino</h3>
+            <p class="mt-2">
+              Create your account by filling out a simple registration form. Provide basic information about your restaurant to get started.
+            </p>
+            <ul class="mt-2 list-disc list-inside">
+              <li>No lengthy contracts.</li>
+              <li>Quick and easy onboarding process.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="flex flex-col md:flex-row items-start md:items-center">
+          <div class="flex-shrink-0 text-gold-accent text-6xl md:mr-8">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">2. Customize Your Rewards Program</h3>
+            <p class="mt-2">
+              Design a loyalty program that fits your business model. Choose reward structures, point systems, and exclusive offers.
+            </p>
+            <ul class="mt-2 list-disc list-inside">
+              <li>Flexible options to suit different restaurant types.</li>
+              <li>Ability to update and adjust rewards anytime.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="flex flex-col md:flex-row items-start md:items-center">
+          <div class="flex-shrink-0 text-gold-accent text-6xl md:mr-8">
+            <i class="fas fa-plug"></i>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">3. Seamless Integration</h3>
+            <p class="mt-2">
+              Integrate Dino with your existing POS system effortlessly. Our support team assists you every step of the way.
+            </p>
+            <ul class="mt-2 list-disc list-inside">
+              <li>Compatible with major POS systems.</li>
+              <li>Minimal technical requirements.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Step 4 -->
+        <div class="flex flex-col md:flex-row items-start md:items-center">
+          <div class="flex-shrink-0 text-gold-accent text-6xl md:mr-8">
+            <i class="fas fa-bullhorn"></i>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">4. Launch and Promote</h3>
+            <p class="mt-2">
+              Go live and start attracting new customers. Utilize our marketing tools to promote your new loyalty program.
+            </p>
+            <ul class="mt-2 list-disc list-inside">
+              <li>Access to marketing materials and support.</li>
+              <li>Promote via social media, email campaigns, and in-store signage.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Step 5 -->
+        <div class="flex flex-col md:flex-row items-start md:items-center">
+          <div class="flex-shrink-0 text-gold-accent text-6xl md:mr-8">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">5. Monitor and Grow</h3>
+            <p class="mt-2">
+              Track your program's performance through our comprehensive dashboard. Analyze customer data to make informed business decisions.
+            </p>
+            <ul class="mt-2 list-disc list-inside">
+              <li>Real-time analytics and reporting.</li>
+              <li>Customer insights to enhance engagement.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="mt-8 text-center text-lg">
+        Join Dino today and take the first step towards unlocking your restaurant's full potential.
+      </p>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" class="py-16 bg-deep-emerald-green text-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold">Ready to Transform Your Restaurant's Customer Loyalty?</h2>
+      <p class="mt-4 text-xl">
+        Join Dino today and start experiencing growth like never before.
+      </p>
+      <a href="#signup" class="mt-8 inline-block bg-gold-accent text-white font-semibold py-3 px-6 rounded hover:bg-opacity-90">
+        Get Started Now
+      </a>
+      <p class="mt-6 text-lg">
+        Signing up is quick and easy. No long-term commitments, just unparalleled support and tools to help your restaurant thrive.
+      </p>
+      <p class="mt-4 text-lg">
+        Have questions? <a href="#contact" class="underline hover:text-gold-accent">Contact our team</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2023 Dino. All rights reserved.</p>
+      <div class="mt-4">
+        <a href="#" class="hover:text-gold-accent mx-2">Privacy Policy</a>
+        <a href="#" class="hover:text-gold-accent mx-2">Terms of Service</a>
+        <a href="#" class="hover:text-gold-accent mx-2">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>

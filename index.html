@@ -1,1 +1,248 @@
-Something elseee
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dinosa - Elevate Your Restaurant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Description and Keywords -->
+  <meta name="description" content="Dinosa offers AI-powered marketing solutions for restaurants. Attract and retain diners effortlessly with personalized promotions and insights.">
+  <meta name="keywords" content="Dinosa, Restaurant Marketing, AI Promotions, Customer Feedback, Analytics, Restaurant Growth">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap">
+  <!-- Tailwind CSS -->
+  <link rel="stylesheet" href="dist/styles.css">
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+  <!-- Swiper CSS (for carousel) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicon (Optional) -->
+  <!-- You can use a free favicon or omit it -->
+  <link rel="icon" href="https://example.com/favicon.ico" type="image/x-icon">
+</head>
+<body class="font-montserrat text-slate-gray">
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+    <nav class="container mx-auto flex items-center justify-between py-4 px-6">
+      <!-- Logo -->
+      <a href="#" class="flex items-center">
+        <!-- Text Logo -->
+        <span class="text-2xl font-bold text-deep-emerald-green">Dinosa</span>
+      </a>
+      <!-- Navigation Links -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#benefits" class="hover:text-gold-accent">Benefits</a>
+        <a href="#how-it-works" class="hover:text-gold-accent">How It Works</a>
+        <a href="#testimonials" class="hover:text-gold-accent">Testimonials</a>
+        <a href="#contact" class="hover:text-gold-accent">Contact</a>
+      </div>
+      <!-- Call to Action Button -->
+      <a href="#cta" class="hidden md:block bg-gold-accent text-white font-semibold py-2 px-4 rounded hover:bg-gold-accent/90 transition duration-200">Get Started</a>
+      <!-- Mobile Menu Button -->
+      <button id="menu-btn" class="md:hidden text-3xl text-slate-gray focus:outline-none">
+        <i class="fas fa-bars"></i>
+      </button>
+    </nav>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+      <nav class="flex flex-col space-y-2 px-6 py-4">
+        <a href="#benefits" class="hover:text-gold-accent">Benefits</a>
+        <a href="#how-it-works" class="hover:text-gold-accent">How It Works</a>
+        <a href="#testimonials" class="hover:text-gold-accent">Testimonials</a>
+        <a href="#contact" class="hover:text-gold-accent">Contact</a>
+        <a href="#cta" class="bg-gold-accent text-white font-semibold py-2 px-4 rounded text-center hover:bg-gold-accent/90 transition duration-200">Get Started</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section id="hero" class="relative bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTk4ODl8MHwxfHNlYXJjaHwxfHxkZWxpY2lvdXMlMjByZXN0YXVyYW50fGVufDB8fHx8MTY5MDA3NTk5Mg&ixlib=rb-4.0.3&q=80&w=1920');">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <!-- Content -->
+    <div class="container mx-auto px-6 py-20 md:py-32 relative z-10">
+      <div class="text-center" data-aos="fade-up">
+        <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight">
+          Evolve Your Restaurant's Growth—<span id="typed-text" class="text-gold-accent"></span>
+        </h1>
+        <p class="mt-6 text-lg md:text-xl text-gray-200">
+          AI-Powered Marketing Solutions Tailored to Your Needs
+        </p>
+        <a href="#cta" class="mt-8 inline-block bg-gold-accent text-white font-semibold py-3 px-6 rounded hover:bg-gold-accent/90 transition duration-200">
+          Get Started Now
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Key Benefits Section -->
+  <section id="benefits" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-deep-emerald-green text-center" data-aos="fade-up">Why Choose Dinosa?</h2>
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Benefit 1 -->
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="100">
+          <div class="p-6 text-center">
+            <div class="text-gold-accent text-5xl mb-4">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-deep-emerald-green">AI-Powered Promotions</h3>
+            <p class="mt-4 text-slate-gray">
+              Automatically attract diners with personalized, AI-generated promotions.
+            </p>
+          </div>
+        </div>
+        <!-- Benefit 2 -->
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="200">
+          <div class="p-6 text-center">
+            <div class="text-gold-accent text-5xl mb-4">
+              <i class="fas fa-comments"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-deep-emerald-green">Effortless Feedback</h3>
+            <p class="mt-4 text-slate-gray">
+              Collect valuable customer feedback seamlessly with incentives.
+            </p>
+          </div>
+        </div>
+        <!-- Benefit 3 -->
+        <div class="bg-white rounded-lg shadow-md hover:shadow-lg transition transform hover:-translate-y-1" data-aos="fade-up" data-aos-delay="300">
+          <div class="p-6 text-center">
+            <div class="text-gold-accent text-5xl mb-4">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-deep-emerald-green">Real-Time Analytics</h3>
+            <p class="mt-4 text-slate-gray">
+              Monitor your performance with our intuitive dashboard and insights.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- How It Works Section -->
+  <section id="how-it-works" class="py-16 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-deep-emerald-green text-center" data-aos="fade-up">How Dinosa Works</h2>
+      <div class="mt-12 space-y-12">
+        <!-- Step 1 -->
+        <div class="flex flex-col md:flex-row items-center" data-aos="fade-right" data-aos-delay="100">
+          <div class="md:w-1/2">
+            <img src="https://i.ytimg.com/vi/IxGRqz-766U/hqdefault.jpg" alt="Sign Up" class="w-full h-auto">
+          </div>
+          <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">1. Sign Up Effortlessly</h3>
+            <p class="mt-4 text-slate-gray">
+              Create your Dinosa account with a few simple steps and join the platform.
+            </p>
+          </div>
+        </div>
+        <!-- Step 2 -->
+        <div class="flex flex-col md:flex-row items-center" data-aos="fade-left" data-aos-delay="200">
+          <div class="md:w-1/2 order-2 md:order-1 md:pr-12 mt-6 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">2. Let AI Work for You</h3>
+            <p class="mt-4 text-slate-gray">
+              Our AI generates personalized promotions to attract your ideal diners.
+            </p>
+          </div>
+          <div class="md:w-1/2 order-1 md:order-2">
+            <img src="https://blog.socialmediastrategiessummit.com/wp-content/uploads/2019/08/Examples-of-AI-in-Marketing-1.png?x37903" alt="AI Promotions" class="w-full h-auto">
+          </div>
+        </div>
+        <!-- Step 3 -->
+        <div class="flex flex-col md:flex-row items-center" data-aos="fade-right" data-aos-delay="300">
+          <div class="md:w-1/2">
+            <img src="https://i.pinimg.com/736x/ef/3d/43/ef3d43b484be2293a71d2cfd013dc660.jpg" alt="Grow" class="w-full h-auto">
+          </div>
+          <div class="md:w-1/2 md:pl-12 mt-6 md:mt-0">
+            <h3 class="text-2xl font-semibold text-deep-emerald-green">3. Watch Your Business Grow</h3>
+            <p class="mt-4 text-slate-gray">
+              Experience increased foot traffic and customer engagement effortlessly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold text-deep-emerald-green" data-aos="fade-up">What Our Clients Say</h2>
+      <div class="mt-12">
+        <!-- Testimonial Carousel -->
+        <div class="swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <!-- Testimonial Slide 1 -->
+            <div class="swiper-slide">
+              <div class="bg-white p-6 rounded-lg shadow-md">
+                <p class="text-slate-gray italic">
+                  "Dinosa has transformed our customer engagement. The AI promotions are fantastic!"
+                </p>
+                <div class="mt-4 flex items-center justify-center">
+                  <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTk4ODl8MHwxfHNlYXJjaHwxfHxwZXJzb258ZW58MHx8fHwxNjkwMDc2MDI1&ixlib=rb-4.0.3&q=80&w=100" alt="Client Photo" class="w-12 h-12 rounded-full mr-3">
+                  <div>
+                    <p class="font-semibold text-deep-emerald-green">John Doe</p>
+                    <p class="text-sm text-slate-gray">Owner, The Great Eatery</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Additional testimonial slides... -->
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Call to Action Section -->
+  <section id="cta" class="py-20 bg-cover bg-center text-white" style="background-image: url('https://images.unsplash.com/photo-1541544741938-0af808871cc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTk4ODl8MHwxfHNlYXJjaHwxfHxkZWxpY2lvdXMlMjByZXN0YXVyYW50fGVufDB8fHx8MTY5MDA3NjAyOA&ixlib=rb-4.0.3&q=80&w=1920');">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <!-- Content -->
+    <div class="container mx-auto px-6 text-center relative z-10" data-aos="zoom-in">
+      <h2 class="text-3xl font-bold">Ready to Transform Your Restaurant?</h2>
+      <p class="mt-4 text-xl">
+        Join Dinosa today and experience growth like never before.
+      </p>
+      <a href="#signup" class="mt-8 inline-block bg-gold-accent text-white font-semibold py-3 px-6 rounded hover:bg-gold-accent/90 transition duration-200">
+        Get Started Now
+      </a>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; 2023 Dinosa. All rights reserved.</p>
+      <div class="mt-4">
+        <a href="#" class="hover:text-gold-accent mx-2">Privacy Policy</a>
+        <a href="#" class="hover:text-gold-accent mx-2">Terms of Service</a>
+        <a href="#" class="hover:text-gold-accent mx-2">Contact Us</a>
+      </div>
+    </div>
+  </footer>
+  <!-- Scripts -->
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12/lib/typed.min.js"></script>
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- Swiper JS (for carousel) -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      autoplay: {
+        delay: 5000,
+      },
+      loop: true,
+    });
+  </script>
+  <!-- Flowbite JS -->
+  <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>

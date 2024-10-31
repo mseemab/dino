@@ -1,0 +1,31 @@
+/* src/styles.css */
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Flowbite */
+@import "flowbite";
+
+/* Custom Styles */
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Fonts */
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Custom Scrollbar (Optional) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}

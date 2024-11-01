@@ -13,9 +13,9 @@ AOS.init();
 
 // Initialize Typed.js
 var typed = new Typed('#typed-text', {
-    strings: ['Effortlessly.', 'Intelligently.', 'Profitably.'],
-    typeSpeed: 60,
-    backSpeed: 40,
-    backDelay: 2000,
-    loop: true,
-  });
+  strings: ["Engaged", "Loyal", "Repeat"],
+  typeSpeed: 100,
+  backSpeed: 50,
+  backDelay: 2000,
+  loop: true
+});

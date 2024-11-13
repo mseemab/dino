@@ -19,3 +19,40 @@ var typed = new Typed('#typed-text', {
   backDelay: 2000,
   loop: true
 });
+
+// Open and close pop-up form
+document.getElementById('openFormBtn').addEventListener('click', function () {
+  document.getElementById('waitlistFormContainer').classList.remove('hidden');
+});
+
+document.getElementById('closeFormBtn').addEventListener('click', function () {
+  document.getElementById('waitlistFormContainer').classList.add('hidden');
+});
+
+document.getElementById('joinForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  const formData = {
+    name: document.getElementById('name').value,
+    restaurantName: document.getElementById('restaurantName').value,
+    city: document.getElementById('city').value,
+    contactNumber: document.getElementById('contactNumber').value,
+    email: document.getElementById('email').value
+  };
+
+  fetch('https://script.google.com/macros/s/AKfycbwxMBZ8ann6f-wX0fCOejEeRAUuQTVQhJcHq5U4whT0KMTU4eStJ1u3CzemgO3BgTlO7A/exec', {
+    method: 'POST',
+    body: JSON.stringify(formData),
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+  .then(response => response.json())
+  .then(data => {
+    alert(data.message);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    alert('There was an error submitting the form. Please try again later.');
+  });
+});

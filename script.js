@@ -40,8 +40,9 @@ document.getElementById('joinForm').addEventListener('submit', function (e) {
     email: document.getElementById('email').value
   };
 
-  fetch('https://script.google.com/macros/s/AKfycbwxMBZ8ann6f-wX0fCOejEeRAUuQTVQhJcHq5U4whT0KMTU4eStJ1u3CzemgO3BgTlO7A/exec', {
+  fetch('https://script.google.com/macros/s/AKfycbxIyKKWcWy_g-q53SuIybJ6369VnGC3Yo_evsCZ5vyIL3Uwl1lKOg1qUhtKNsR9dpQcjQ/exec', {
     method: 'POST',
+    mode: 'cors',
     body: JSON.stringify(formData),
     headers: {
       'Content-Type': 'application/json'
